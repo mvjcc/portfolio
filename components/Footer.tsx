@@ -1,9 +1,9 @@
 import React from "react"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineLinkedin,
-  AiOutlineYoutube,
+  AiOutlineMail,
+  AiOutlinePhone,
 } from "react-icons/ai"
 
 const Footer = () => {
@@ -12,42 +12,36 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Hosna Qasmei<a href="/" className="hover:underline"></a>
+          © {new Date().getFullYear()} Mario Victor Jose Cabanag<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
-            <AiOutlineGithub
+          <a href="mailto:mvjccabanag@gmail.com" rel="noreferrer" target="_blank" className="flex gap-x-1 items-center">
+            <AiOutlineMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
-            />
+            /> mvjccabanag@gmail.com
           </a>
-          <a
-            href="https://twitter.com/hqasmei"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter
+
+          <a href="tel:+639654001715" rel="noreferrer" target="_blank" className="flex gap-x-1 items-center">
+            <AiOutlinePhone
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            /> (+63) 965 4001 715
+          </a>
+
+          <a href="https://github.com/mvjcc" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
 
           <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="https://www.linkedin.com/in/mvjcc/"
             rel="noreferrer"
             target="_blank"
           >
             <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineYoutube
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
