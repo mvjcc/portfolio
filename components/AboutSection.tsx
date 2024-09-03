@@ -5,14 +5,13 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
   { skill: "React" },
+  { skill: "React Native" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
+  { skill: "Laravel" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
 ]
 
 const AboutSection = () => {
@@ -30,35 +29,35 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Mario and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" driven"}</span> web and mobile app developer
+              based in Cagayan de Oro City, Misamis Oriental, Philippines.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Central Mindanao University, University Town, Musuan, Maramag, Bukidnon in 2024
+              with a BS in Information Technology. I have been working in the industry since 2018.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From reading, playing mobile games, traveling, to explorin new tech trends.
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
+              I’m committed to{" "}
               <span className="font-bold text-teal-500">
-                never stop growing
+                continuous growth
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              and self-improvement.
+              With a deep passion for technology
+              and a drive to push the boundaries of what&#39;s possible,
+              I&#39;m enthusiastic about the future of my career
+              and always open to exploring new opportunities. 🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -80,7 +79,7 @@ const AboutSection = () => {
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0 mt-4"
             />
           </div>
         </div>
