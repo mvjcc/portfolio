@@ -75,6 +75,15 @@ const projects = [
     appStore: "",
   },
   {
+    name: "Privaposts",
+    description: "Privaposts is a premium subscription-based social media platform",
+    image: "/privaposts.png",
+    github: "",
+    link: "https://privaposts.com/",
+    playStore: "",
+    appStore: "",
+  },
+  {
     name: "Pro Trainer Live",
     description: "Pro Trainer Live is a fitness app for trainers to manage their students",
     image: "/protrainer.png",
