@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Web and Mobile App Developer{" "}
             </span>
-            based in Cagayan de Oro City, Misamis Oriental, Philippines. Striving to develop applications that enhance usability and add value to everyday experiences.
+            based in Cagayan de Oro City, Misamis Oriental, Philippines. Working towards creating digital solutions to your needs.
           </p>
           <Link
             to="projects"
