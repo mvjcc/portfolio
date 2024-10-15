@@ -17,7 +17,7 @@ const projects = [
   {
     name: "Stockroom",
     description: "Stock room is a mobile application to keep track of inventory and transfers from one station to another or between branches",
-    image: "/bigbys-logo.jpg",
+    image: "/bigbys-logo.png",
     github: "",
     link: "",
     playStore: "",
@@ -26,7 +26,7 @@ const projects = [
   {
     name: "Bigbys TodoApp",
     description: "TodoApp is an android application to track and complete daily tasks",
-    image: "/bigbys-logo.jpg",
+    image: "/bigbys-logo.png",
     github: "",
     link: "",
     playStore: "",
@@ -133,7 +133,7 @@ const ProjectsSection = () => {
                         alt=""
                         width={1000}
                         height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
+                        className="rounded-xl shadow-xl max-h-64 hover:opacity-70"
                       />
                     </Link>
                   </div>
