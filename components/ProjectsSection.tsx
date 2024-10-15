@@ -17,7 +17,7 @@ const projects = [
   {
     name: "Stockroom",
     description: "Stock room is a mobile application to keep track of inventory and transfers from one station to another or between branches",
-    image: "/after-sales.png",
+    image: "/bigbys-logo.jpg",
     github: "",
     link: "",
     playStore: "",
@@ -26,7 +26,7 @@ const projects = [
   {
     name: "Bigbys TodoApp",
     description: "TodoApp is an android application to track and complete daily tasks",
-    image: "/after-sales.png",
+    image: "/bigbys-logo.jpg",
     github: "",
     link: "",
     playStore: "",
@@ -35,7 +35,7 @@ const projects = [
   {
     name: "BluEnergy TodoApp",
     description: "TodoApp is an android application to track and complete daily tasks",
-    image: "/after-sales.png",
+    image: "/blu-energy-logo.jpg",
     github: "",
     link: "",
     playStore: "",
